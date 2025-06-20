@@ -1,8 +1,11 @@
 {
   "name": "@bredele/disaposable-email",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Check if an email belongs to a list of domains for disposable emails",
   "main": "dist/cjs/index.js",
+  "files": [
+    "dist"
+  ],
   "exports": {
     "import": {
       "types": "./dist/index.d.ts",
@@ -29,6 +32,9 @@
   ],
   "author": "Olivier Wietrich",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "devDependencies": {
     "@swc/cli": "^0.7.7",
     "@swc/core": "^1.12.3",
