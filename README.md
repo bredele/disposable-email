@@ -16,7 +16,7 @@ import isDisposable from "@bredele/disposable-email";
 isDisposable("hello@gmail.com");
 // => false
 
-isDisposable("00093015.com");
+isDisposable("hello@temp-mail.com");
 // => true
 ```
 
