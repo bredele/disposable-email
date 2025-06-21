@@ -1,8 +1,8 @@
 {
   "name": "@bredele/disaposable-email",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Check if an email belongs to a list of domains for disposable emails",
-  "main": "dist/cjs/index.js",
+  "main": "dist/cjs/src/index.js",
   "files": [
     "dist"
   ],
