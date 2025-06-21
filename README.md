@@ -5,7 +5,7 @@ Easily determine whether an email’s domain comes from a disposable email provi
 ## Installation
 
 ```sh
-$ npm install @bredele/disposable-email
+npm install @bredele/disposable-email
 ```
 
 ## Usage
